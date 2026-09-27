@@ -1,0 +1,9 @@
+.wrapper {
+    width: 100%;
+    position: relative;
+  }
+  
+  .wrapper :global(.swiper-button-next),
+  .wrapper :global(.swiper-button-prev) {
+    color: #34c94b;
+  }

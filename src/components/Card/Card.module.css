@@ -1,0 +1,35 @@
+.card {
+  width: 159px;
+}
+
+.cardWrapper {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cardImage {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  display: block;
+}
+
+.chipContainer {
+  background-color: white;
+  padding: 6px;
+}
+
+.chip {
+  background-color: black !important;
+  color: white !important;
+  font-size: 10px !important;
+  height: 22px !important;
+}
+
+.title {
+  color: white;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}

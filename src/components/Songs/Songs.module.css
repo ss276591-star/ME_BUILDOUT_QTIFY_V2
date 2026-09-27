@@ -1,0 +1,31 @@
+.section {
+    padding: 20px 32px;
+    background-color: #121212;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .tabs {
+    margin-bottom: 20px;
+  }
+  
+  .tabs :global(.MuiTab-root) {
+    color: white;
+    text-transform: none;
+    min-width: auto;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  
+  .tabs :global(.Mui-selected) {
+    color: white !important;
+  }
+  
+  .tabs :global(.MuiTabs-indicator) {
+    background-color: #34c94b;
+    height: 3px;
+  }

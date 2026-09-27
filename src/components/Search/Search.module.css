@@ -2,10 +2,12 @@
   padding: 14px 20px;
   height: 100%;
   border-radius: 8px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   border: 1px solid var(--color-black);
   width: 502px;
+  box-sizing: border-box;
+  outline: none;
 }
 
 .wrapper {
@@ -15,13 +17,13 @@
 }
 
 .searchButton {
-  border-radius: 0px 8px 8px 0px;
+  border-radius: 0 8px 8px 0;
   padding: 14px 20px;
   height: 100%;
   border: 1px solid var(--color-black);
   border-left: none;
   cursor: pointer;
-  height: 100%;
+  background-color: white;
 }
 
 .listElement {
@@ -32,8 +34,10 @@
 
 .albumTitle {
   font-size: 16px;
+  margin: 0;
 }
 
 .albumArtists {
   font-size: 12px;
+  margin: 0;
 }
