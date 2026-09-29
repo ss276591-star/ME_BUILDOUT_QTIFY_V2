@@ -1,7 +1,7 @@
 describe("Buildout Qtify v2", () => {
     beforeEach(() => {
-      cy.visit("https://example.com/");
-      // cy.visit("https://example.com/");
+      cy.visit("https://YOUR-PROJECT.vercel.app");
+      // cy.visit("https://YOUR-PROJECT.vercel.app");
     });
     describe("Navbar", () => {
     it("Should contain logo, search bar, and a button", () => {
