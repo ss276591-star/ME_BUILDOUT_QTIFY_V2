@@ -1,9 +1,28 @@
 .wrapper {
-    width: 100%;
-    position: relative;
-  }
-  
-  .wrapper :global(.swiper-button-next),
-  .wrapper :global(.swiper-button-prev) {
-    color: #34c94b;
-  }
+  width: 100%;
+  position: relative;
+}
+
+.nextButton,
+.prevButton {
+  position: absolute;
+  top: 45%;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
+  color: #34c94b;
+  font-size: 45px;
+  line-height: 35px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.nextButton {
+  right: 0;
+}
+
+.prevButton {
+  left: 0;
+}
